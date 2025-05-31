@@ -11,11 +11,11 @@ from PIL import Image, ImageDraw
 import shutil
 
 # Set API key and Custom Search Engine ID (cx) to use Google images
-api_key = "AIzaSyD2ueLElQCM6wbg6sK0No9p0A2h3Y-xaxg"
-cx = "4222f6ad13e404017"
+api_key = ""
+cx = ""
 
 # email address to access NCBI
-Entrez.email = "ryan.tseng@sjsu.edu"
+Entrez.email = ""
 
 #read and parse newick data
 def parse_newick():
